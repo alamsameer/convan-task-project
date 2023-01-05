@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-container {
+  width: 40vw;
+  height: 40vh;
+  outline: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(171, 241, 200);
+  color: rgb(61, 25, 221);
+  padding: 1.5rem 1rem;
+}
+.btn-container button {
+  background-color: rgb(61, 25, 221);
+  color: white;
+  padding: 0.5rem 0.7rem;
+  margin: 0.3rem;
+  border: none;
+  border-radius: 100%;
+}
